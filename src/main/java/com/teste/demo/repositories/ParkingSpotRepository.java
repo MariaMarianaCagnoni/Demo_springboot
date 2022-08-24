@@ -1,0 +1,15 @@
+package com.teste.demo.repositories;
+
+import com.teste.demo.models.ParkingSpotModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.UUID;
+
+@Repository
+public interface ParkingSpotRepository extends JpaRepository<ParkingSpotModel, UUID> {
+
+
+
+
+}
